@@ -12,6 +12,7 @@ struct Person {
     var name: String
     var age: Int
     var email: String
+    var total: Int
     
     
 }
