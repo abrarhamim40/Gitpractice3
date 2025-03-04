@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                     NavigationLink {
-                        SecondVIew()
+                        SecondView()
                     } label: {
                         Image(systemName: "plus")
                             .resizable()
