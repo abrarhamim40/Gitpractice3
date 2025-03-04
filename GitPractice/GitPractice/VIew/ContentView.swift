@@ -14,11 +14,11 @@ struct ContentView: View {
                     NavigationLink {
                         SecondView()
                     } label: {
-                        Image(systemName: "plus")
+                        Image(systemName: "person.crop.circle")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 64, height: 64)
-                            .foregroundStyle(.tint)
+                            .clipShape(Circle())
                     }
                 Text("Hello, world!")
                     .font(.largeTitle)
