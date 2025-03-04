@@ -11,7 +11,7 @@ import SwiftUI
 struct Person {
     var name: String
     var age: Int
-    var image: String
     var gender: String
-    var location: String
+    var image: String
+    var email: String
 }
