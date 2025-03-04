@@ -12,8 +12,6 @@ struct Person {
     var name: String
     var age: Int
     var email: String
-    var phone: String
-    var address: String
-    var image: String
+    
     
 }
